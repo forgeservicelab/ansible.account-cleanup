@@ -1,0 +1,10 @@
+---
+- hosts: all
+  sudo: True
+  tasks:
+    - name: remove user account
+      user:
+        name: "{{ item }}"
+        state: absent
+        remove: no
+      with_items: remove_accounts

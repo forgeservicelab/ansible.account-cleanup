@@ -1,0 +1,6 @@
+---
+openstack_prod:
+  auth_url: "https://cloud.forgeservicelab.fi:5001/v2.0"
+  username: 
+  api_key:
+  project_id:
