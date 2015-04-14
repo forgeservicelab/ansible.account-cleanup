@@ -24,7 +24,7 @@ Usage
 -----
 
 ```
-$ ./clenaup.sh [optional ansible parameters]
+$ ./cleanup.sh [optional ansible parameters]
 ```
 
 Author Information
